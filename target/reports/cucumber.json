@@ -1,0 +1,356 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1044281000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.user_is_on_the_techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-31T23:24:34.474Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4384845000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.setup()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "User should be able to login with valid credentials",
+        "description": "",
+        "id": "n--techfios-billing-login-page-functionality-validation;user-should-be-able-to-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2018540000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 248000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.user_is_on_the_techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1198003000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters the \"demo@techfios.com\" in the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo@techfios.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.user_enters_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 803655000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters the \"abc123\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 16
+                }
+              ],
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.user_enters_password_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2616406000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 578238000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should land on dashboard page",
+            "match": {
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1588620000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on Bank and Cash",
+            "match": {
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.user_clicks_on_bank_and_cash()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2081506000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on New Account",
+            "match": {
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.user_clicks_on_New_Account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1620163000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should land on Add Contact page",
+            "match": {
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.user_should_land_on_Add_Contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1581809000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters \"Nish BDD Account\" in the accountTitle field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nish BDD Account\"",
+                  "offset": 12
+                }
+              ],
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_accountTitle_in_the_accountTitle_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1245453000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters \"BDD HW1 Final\" in the description field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BDD HW1 Final\"",
+                  "offset": 12
+                }
+              ],
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_description_in_the_description_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1123460000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters \"500\" in the initialBalance field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"500\"",
+                  "offset": 12
+                }
+              ],
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_initialBalance_in_the_initialBalance_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1129862000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters \"021821\" in the accountNumber field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"021821\"",
+                  "offset": 12
+                }
+              ],
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_accountNumber_in_the_accountNumber_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1308174000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters \"Bhattarai Family\" in the contactPerson field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bhattarai Family\"",
+                  "offset": 12
+                }
+              ],
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_contactPerson_in_the_contactPerson_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1116026000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters \"1234567\" in the phone field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1234567\"",
+                  "offset": 12
+                }
+              ],
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_phone_in_the_phone_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1261009000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters \"www.nishhw1.com\" in the internetBankingURL field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"www.nishhw1.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_internetBankingURL_in_the_internetBankingURL_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3940092000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks on submit button",
+            "match": {
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3645713000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should be able to validate account created successfully",
+            "match": {
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.user_should_be_able_to_validate_account_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@LoginScenario1"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "n  Techfios billing login page functionality validation",
+    "description": "",
+    "id": "n--techfios-billing-login-page-functionality-validation",
+    "keyword": "Feature",
+    "uri": "classpath:hw1_Features_pkg/TechfiosLogin.feature",
+    "tags": [
+      {
+        "name": "@LoginFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 15
+        }
+      }
+    ]
+  }
+]
