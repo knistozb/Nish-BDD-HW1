@@ -1,9 +1,9 @@
 [
   {
-    "line": 2,
+    "line": 3,
     "elements": [
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1044281000,
+              "duration": 1045126000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "User is on the techfios login page",
             "match": {
               "location": "hw1_Steps_pkg.LoginStepsDefinition.user_is_on_the_techfios_login_page()"
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-07-31T23:24:34.474Z",
+        "start_timestamp": "2023-08-05T17:20:43.245Z",
         "before": [
           {
             "result": {
-              "duration": 4384845000,
+              "duration": 2635298000,
               "status": "passed"
             },
             "match": {
@@ -37,13 +37,13 @@
           }
         ],
         "line": 29,
-        "name": "User should be able to login with valid credentials",
+        "name": "User should be able to login with valid credentials and open a new account",
         "description": "",
-        "id": "n--techfios-billing-login-page-functionality-validation;user-should-be-able-to-login-with-valid-credentials;;2",
+        "id": "n--techfios-billing-login-page-functionality-validation;user-should-be-able-to-login-with-valid-credentials-and-open-a-new-account;;2",
         "after": [
           {
             "result": {
-              "duration": 2018540000,
+              "duration": 1734582000,
               "status": "passed"
             },
             "match": {
@@ -56,55 +56,51 @@
         "steps": [
           {
             "result": {
-              "duration": 248000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User is on the techfios login page",
-            "match": {
-              "location": "hw1_Steps_pkg.LoginStepsDefinition.user_is_on_the_techfios_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1198003000,
+              "duration": 979724000,
               "status": "passed"
             },
             "line": 10,
-            "name": "User enters the \"demo@techfios.com\" in the username field",
+            "name": "User enters the \"demo@techfios.com\" in the \"username\" field",
             "match": {
               "arguments": [
                 {
                   "val": "\"demo@techfios.com\"",
                   "offset": 16
+                },
+                {
+                  "val": "\"username\"",
+                  "offset": 43
                 }
               ],
-              "location": "hw1_Steps_pkg.LoginStepsDefinition.user_enters_username_as(java.lang.String)"
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.user_enters_in_the_field(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 803655000,
+              "duration": 777553000,
               "status": "passed"
             },
             "line": 11,
-            "name": "User enters the \"abc123\" in the password field",
+            "name": "User enters the \"abc123\" in the \"password\" field",
             "match": {
               "arguments": [
                 {
                   "val": "\"abc123\"",
                   "offset": 16
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 32
                 }
               ],
-              "location": "hw1_Steps_pkg.LoginStepsDefinition.user_enters_password_as(java.lang.String)"
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.user_enters_in_the_field(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2616406000,
+              "duration": 3557230000,
               "status": "passed"
             },
             "line": 12,
@@ -116,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 578238000,
+              "duration": 9634000,
               "status": "passed"
             },
             "line": 13,
@@ -128,7 +124,7 @@
           },
           {
             "result": {
-              "duration": 1588620000,
+              "duration": 1565059000,
               "status": "passed"
             },
             "line": 14,
@@ -140,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 2081506000,
+              "duration": 1778994000,
               "status": "passed"
             },
             "line": 15,
@@ -152,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 1620163000,
+              "duration": 1533349000,
               "status": "passed"
             },
             "line": 16,
@@ -164,133 +160,161 @@
           },
           {
             "result": {
-              "duration": 1581809000,
+              "duration": 1109845000,
               "status": "passed"
             },
             "line": 17,
-            "name": "User enters \"Nish BDD Account\" in the accountTitle field in accounts page",
+            "name": "User enters \"Nish BDD Account\" in the \"accountTitle\" field in accounts page",
             "match": {
               "arguments": [
                 {
                   "val": "\"Nish BDD Account\"",
                   "offset": 12
+                },
+                {
+                  "val": "\"accountTitle\"",
+                  "offset": 38
                 }
               ],
-              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_accountTitle_in_the_accountTitle_field(java.lang.String)"
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_addContactPage_info_in_respective_fields(java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1245453000,
+              "duration": 1240529000,
               "status": "passed"
             },
             "line": 18,
-            "name": "User enters \"BDD HW1 Final\" in the description field in accounts page",
+            "name": "User enters \"BDD HW1 FinalInTesting\" in the \"description\" field in accounts page",
             "match": {
               "arguments": [
                 {
-                  "val": "\"BDD HW1 Final\"",
+                  "val": "\"BDD HW1 FinalInTesting\"",
                   "offset": 12
+                },
+                {
+                  "val": "\"description\"",
+                  "offset": 44
                 }
               ],
-              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_description_in_the_description_field(java.lang.String)"
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_addContactPage_info_in_respective_fields(java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1123460000,
+              "duration": 1140099000,
               "status": "passed"
             },
             "line": 19,
-            "name": "User enters \"500\" in the initialBalance field in accounts page",
+            "name": "User enters \"500\" in the \"initialBalance\" field in accounts page",
             "match": {
               "arguments": [
                 {
                   "val": "\"500\"",
                   "offset": 12
+                },
+                {
+                  "val": "\"initialBalance\"",
+                  "offset": 25
                 }
               ],
-              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_initialBalance_in_the_initialBalance_field(java.lang.String)"
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_addContactPage_info_in_respective_fields(java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1129862000,
+              "duration": 1150160000,
               "status": "passed"
             },
             "line": 20,
-            "name": "User enters \"021821\" in the accountNumber field in accounts page",
+            "name": "User enters \"021821\" in the \"accountNumber\" field in accounts page",
             "match": {
               "arguments": [
                 {
                   "val": "\"021821\"",
                   "offset": 12
+                },
+                {
+                  "val": "\"accountNumber\"",
+                  "offset": 28
                 }
               ],
-              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_accountNumber_in_the_accountNumber_field(java.lang.String)"
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_addContactPage_info_in_respective_fields(java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1308174000,
+              "duration": 1213823000,
               "status": "passed"
             },
             "line": 21,
-            "name": "User enters \"Bhattarai Family\" in the contactPerson field in accounts page",
+            "name": "User enters \"Bhattarai Family\" in the \"contactPerson\" field in accounts page",
             "match": {
               "arguments": [
                 {
                   "val": "\"Bhattarai Family\"",
                   "offset": 12
+                },
+                {
+                  "val": "\"contactPerson\"",
+                  "offset": 38
                 }
               ],
-              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_contactPerson_in_the_contactPerson_field(java.lang.String)"
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_addContactPage_info_in_respective_fields(java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1116026000,
+              "duration": 1084248000,
               "status": "passed"
             },
             "line": 22,
-            "name": "User enters \"1234567\" in the phone field in accounts page",
+            "name": "User enters \"1234567\" in the \"phone\" field in accounts page",
             "match": {
               "arguments": [
                 {
                   "val": "\"1234567\"",
                   "offset": 12
+                },
+                {
+                  "val": "\"phone\"",
+                  "offset": 29
                 }
               ],
-              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_phone_in_the_phone_field(java.lang.String)"
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_addContactPage_info_in_respective_fields(java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1261009000,
+              "duration": 1106560000,
               "status": "passed"
             },
             "line": 23,
-            "name": "User enters \"www.nishhw1.com\" in the internetBankingURL field in accounts page",
+            "name": "User enters \"www.nishhw1.com\" in the \"internetBankingURL\" field in accounts page",
             "match": {
               "arguments": [
                 {
                   "val": "\"www.nishhw1.com\"",
                   "offset": 12
+                },
+                {
+                  "val": "\"internetBankingURL\"",
+                  "offset": 37
                 }
               ],
-              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_internetBankingURL_in_the_internetBankingURL_field(java.lang.String)"
+              "location": "hw1_Steps_pkg.LoginStepsDefinition.User_enters_addContactPage_info_in_respective_fields(java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3940092000,
+              "duration": 2993853000,
               "status": "passed"
             },
             "line": 24,
@@ -302,7 +326,7 @@
           },
           {
             "result": {
-              "duration": 3645713000,
+              "duration": 2787095000,
               "status": "passed"
             },
             "line": 25,
@@ -339,7 +363,7 @@
         "name": "@LoginFeature",
         "type": "Tag",
         "location": {
-          "line": 1,
+          "line": 2,
           "column": 1
         }
       },
@@ -347,7 +371,7 @@
         "name": "@Regression",
         "type": "Tag",
         "location": {
-          "line": 1,
+          "line": 2,
           "column": 15
         }
       }
